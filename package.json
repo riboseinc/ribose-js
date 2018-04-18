@@ -1,0 +1,22 @@
+{
+  "name": "ribose",
+  "version": "1.0.0",
+  "description": "The NodeJS interface to Ribose API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riboseinc/ribose-js.git"
+  },
+  "author": "Ribose Inc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/riboseinc/ribose-js/issues"
+  },
+  "homepage": "https://github.com/riboseinc/ribose-js#readme",
+  "devDependencies": {
+    "mocha": "^5.1.1"
+  }
+}
