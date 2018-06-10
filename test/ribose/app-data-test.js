@@ -1,9 +1,14 @@
 require("../test-helper");
+const ribose = require("../../lib/ribose")();
 
 describe("App Data", () => {
   describe(".all", () => {
     it("retrieves the list of app data", () => {
-      app_data = ribose.app_data.all();
+      ribose.authenticate({token: "secret-token", email: "api@ribose.test" })
+      app_data = ribose.appData.getAll();
+
+      console.log(app_data);
+
       expect(app_data.misc.locale).to.equal("en")
     });
   });
