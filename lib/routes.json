@@ -1,0 +1,9 @@
+{
+  "appData": {
+    "getAll": {
+      "method": "GET",
+      "url": "/app_data",
+      "params": {}
+    }
+  }
+}
